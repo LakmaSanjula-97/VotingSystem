@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VotingHub-AboutUs</title>
+        <link rel="stylesheet" type="text/css" href="../src/styles/navigation.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/login.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/AboutUs.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            table{
+                margin-left: 7.9cm;
+                border-spacing: 10px 10px;
+                
+            }
+            th{
+                font-size: 30px;
+                color: deepskyblue;
+            }
+            tr{
+                font-size: 18px;
+                font-family: sans-serif;
+                font-weight: bold;
+                color: rgb(73, 70, 70);
+            }
+            th,tr{
+                padding: 30px 100px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body style="overflow-x: hidden;">
+        <section>
+            <nav>
+                <div>
+                    <hr class="nline1" style="margin-top: 0cm;">
+                    <div>
+                        <img class="nlogo" src="../src/images/logo.png">
+                    </div>
+                    <div>
+                        <span class="ntopic">Voting Hub |</span>
+                        <i class="nsubtopic">online-voting system.......</i>
+                        <i id="nslogan">JOIN WITH US -<br>&nbsp; &nbsp; VOTE YOU LIKE..</i>
+                    </div>
+                    <!--login page-->
+                    <div>
+                        <div>
+                            <button type="Login" class="nbtn" style="margin-left: 31cm;" onclick="document.getElementById('login').style.display='block'" style="width: auto;">Login</button>
+                            <div id="login" class="loginbackground">
+                                <form class="loginbackground-content animate" action="#" method="#">
+                                    <div class="imgposition">
+                                        <span onclick="document.getElementById('login').style.display='none'" class="close">&times;</span>
+                                        <img class="avatar" src="../src/images/Avatar.png">
+                                    </div>
+                                    <div class="loginDetails">
+                                        <label for="uname"><b>Username :</b></label>
+                                        <input type="text" placeholder="Enter Username" name="uname" required autofocus>
+                                        <label for="psw1"><b>Password :</b></label>
+                                        <input type="password" name="password" id="pwd" placeholder="Enter Password"><br>
+                                        <input type="checkbox" onclick="myFunction()"><span style="font-size: 15px;">Show Password</span>  
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="checkbox" checked="checked" name="remember"><span style="font-size: 15px;"> Remember Me </span><br><br>
+                                        <script>
+                                            function myFunction()
+                                                {
+                                                    var x = document.getElementById("pwd");
+                                                    if (x.type === "password") 
+                                                    {
+                                                        x.type = "text";
+                                                    } else 
+                                                    {
+                                                        x.type = "password";
+                                                    }
+                                                }
+                                        </script>
+                                        <div>    
+                                            <a class="link1" style="font-size: 17px;  text-decoration: none;" href="../src/resetPassworrd.html">Forgot Password ?</a>
+                                            <br><br>
+                                            
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <button class="btn" style="margin-left: 15cm;" type="submit">Login</button>
+                                    </div>   
+                                </form>    
+                            </div>
+                            <script type="text/javascript" src="../src/js/loging.js"></script>
+                        </div>
+                       
+                        <a href="../src/register.html"><button type="Register" class="nbtn" style="margin-left: 35cm;">Register</button></a>
+                    </div>
+                    <hr class="nline1" style="margin-top: 2.65cm;">
+                </div>
+                <div id="nav-margin">
+                    <div class="nav">
+                        <a href="#" class="nav-item " active-color="rgb(3, 3, 54)">Home</a>
+                        <a href="#" class="nav-item" active-color="rgb(3, 3, 54)">Contact Us</a>
+                        <a href="../src/service.html" class="nav-item" active-color="rgb(3, 3, 54)">Service</a>
+                        <span style="margin-left: 22.3cm; margin-top: 0.3cm;"><a href="../src/AboutUs.html" class="nav-item is-active" active-color="rgb(3, 3, 54)">About Us</a></span>
+                        <span class="nav-indicator"></span>
+                    </div>
+                    <script type="text/javascript" src="../src/js/login.js"></script>
+                </div>
+                <script type="text/javascript" src="../src/js/navigation.js"></script>
+            </nav>
+        </section>
+        <section>
+            <div class="slideshow">
+                <div class="mySlides fade">
+                    <img class="img1" src="../src/images/vote1.jpg" style="width: 100%;">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img class="img1" src="../src/images/vote2.jpg" style="width: 100%;">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img class="img1" src="../src/images/vote3.png" style="width: 100%;">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img class="img1" src="../src/images/vote4.jpg" style="width: 100%;">
+                </div>
+            
+                <div class="mySlides fade">
+                    <img class="img1" src="../src/images/vote5.jpg" style="width: 100%;">
+                </div>
+            </div>
+            <br>
+            <div style="text-align: center; margin-top: 17cm;">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <script src="../src/js/AboutUs.js"></script>
+            <div id="text1">
+                <P id="para1">About VotingHub</P>
+                <p class="para2" style="text-align: center;">
+                    VotingHub is the #1 voting site in Sri Lanka with many unique visitors every month.
+                </p>
+                <p class="para3">
+                    <span style="font-weight: bold;">Our Mission: </span>VotingHub is a nonpartisan champion of electoral reforms that give voters greater choice, a stronger voice, 
+                    and a representative democracy that works for all SriLankans.<br><br>
+                    We are all part of a society where voting is the main method for making decisions and reaching a consensus. 
+                    Today, most voting is still done offline. VotingHub's mission is to change the way people vote.
+                    <br><br><br>
+                    <span style="font-weight: bold;">What We Do: </span>VotingHub has a proven record since 2003 as a nonpartisan trailblazer that advances and wins electoral reforms 
+                    at the local, state, and national level through strategic research, communications and collaboration. Today we are the driving 
+                    force behind advancing ranked choice voting and fair representation in multi-winner legislative districts that will open up our 
+                    elections to better choices, fairer representation and more civil campaigns.<br>We want to facilitate help governments, businesses, educational institutions,
+                    and communities dispense with paperwork and facilitate efficient online elections.
+                </p>
+                <br>
+                <table>
+                    <tr>
+                        <th>250K</th>
+                        <th>150K</th>
+                        <th>150K</th>
+                    </tr>
+                    <tr>
+                        <td>unique monthly visitors</td>
+                        <td>resumes</td>
+                        <td>total ratings and reviews</td>
+                    </tr>
+                </table>
+                <br>
+                <hr style="border: 0.5px solid black;"><br>
+                <p class="about">Our Staff</p>
+                <div id="div1">
+                    <div class="gallery">
+                        <a target="_blank" href="../src/images/person1.jpg">
+                            <img class="images" src="../src/images/person1.jpg" alt="Chief Executive Officer" title="Chief Executive Officer"  width="100%" height="200cm">
+                        </a>
+                        <div class="desc">Mahesh Bawantha<br>Chief Executive Officer</div>
+                    </div>
+        
+                    <div class="gallery">
+                        <a target="_blank" href="../src/images/person4.jpg">
+                            <img class="images" src="../src/images/person4.jpg" alt="Executive Chairman" title="Executive Chairman" width="100%" height="200cm">
+                        </a>
+                        <div class="desc">Lakma Sanjula<br>Executive Chairman</div>
+                    </div>
+        
+                    <div class="gallery">
+                        <a target="_blank" href="../src/images/person2.jpg">
+                            <img class="images" src="../src/images/person2.jpg" alt="Executive VP, policy and programs" title="Executive VP, policy and programs" width="100%" height="200cm">
+                        </a>
+                        <div class="desc">Lahiru De Silva<br>Executive VP, policy and programs</div>
+                    </div>
+        
+                    <div class="gallery">
+                        <a target="_blank" href="../src/images/person5.png">
+                            <img class="images" src="../src/images/person5.png" alt="Chief Product Officer" title="Chief Product Officer" width="100%" height="200cm">
+                        </a>
+                        <div class="desc">Nelundi Ranasinhe<br>Chief Product Officer</div>
+                    </div>
+        
+                    <div class="gallery">
+                        <a target="_blank" href="../src/images/person3.jpg">
+                            <img class="images" src="../src/images/person3.jpg" alt="Chief Information Officer" title="Chief Information Officer" width="100%" height="200cm">
+                        </a>
+                        <div class="desc">Tharaka Maduwantha<br>Chief Information Officer</div>
+                    </div>
+                    <div id="div2">
+                        <img id="img2" src="../src/images/logo.png">
+                        <P id="text3"><b style="color: rgb(141, 8, 8);">VotingHub  </b><br><span style="font-style: italic; font-size: 27px;">Online Voting System</span></P>
+                        <hr style="border: 0.5px solid black;"><br>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <footer id="footer" style="margin-top: 33cm;">
+            <br>
+            <div>
+                <ul id="list1">
+                    <li class="list1"><a href="#">Privacy Policy </a></li>
+                    <li class="list1"><a href="../src/AboutUs.html">About Us </a></li>
+                    <li class="list1"><a href="#">Contact Us </a></li>
+                    <li class="list1"><a href="../src/service.html">Service</a></li>
+                </ul> 
+                <p id="paragraph">Follow Us On</p>
+                <div class="footer-social-media-icons">
+                    <ul>
+                        <li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" target="blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" target="blank"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" target="blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div id="paragraph2">
+                    <p>E-mail Us :</p>
+                    <p id="address" style="font-style: italic;">&nbsp;&nbsp;&nbsp;votinghub@email.com</p>
+                    <p>Contact Us:</p>
+                    <p>&nbsp;&nbsp;&nbsp;077-6739825</p>
+                </div>
+                <div id="footer_div1">
+                    <p id="footer_topic">VotingHub</p>
+                </div>
+                <div id="copy">
+                    <p id="copyright">ALL COPYRIGHTS RESERVED BY THE VOTINGHUB - &copy;2020 VOTINGHUB</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

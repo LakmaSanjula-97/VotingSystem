@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VotingHub-Register</title>
+        <link rel="stylesheet" type="text/css" href="../src/styles/navigation.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/login.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/service.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body style="overflow-x: hidden;">
+        <section>
+            <nav>
+                <div>
+                    <hr class="nline1" style="margin-top: 0cm;">
+                    <div>
+                        <img class="nlogo" src="../src/images/logo.png">
+                    </div>
+                    <div>
+                        <span class="ntopic">Voting Hub |</span>
+                        <i class="nsubtopic">online-voting system.......</i>
+                        <i id="nslogan">JOIN WITH US -<br>&nbsp; &nbsp; VOTE YOU LIKE..</i>
+                    </div>
+                    <!--login page-->
+                    <div>
+                        <div>
+                            <button type="Login" class="nbtn" style="margin-left: 31cm;" onclick="document.getElementById('login').style.display='block'" style="width: auto;">Login</button>
+                            <div id="login" class="loginbackground">
+                                <form class="loginbackground-content animate" action="#" method="#">
+                                    <div class="imgposition">
+                                        <span onclick="document.getElementById('login').style.display='none'" class="close">&times;</span>
+                                        <img class="avatar" src="../src/images/Avatar.png">
+                                    </div>
+                                    <div class="loginDetails">
+                                        <label for="uname"><b>Username :</b></label>
+                                        <input type="text" placeholder="Enter Username" name="uname" required autofocus>
+                                        <label for="psw1"><b>Password :</b></label>
+                                        <input type="password" name="password" id="pwd" placeholder="Enter Password"><br>
+                                        <input type="checkbox" onclick="myFunction()"><span style="font-size: 15px;">Show Password</span>  
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="checkbox" checked="checked" name="remember"><span style="font-size: 15px;"> Remember Me </span><br><br>
+                                        <script>
+                                            function myFunction()
+                                                {
+                                                    var x = document.getElementById("pwd");
+                                                    if (x.type === "password") 
+                                                    {
+                                                        x.type = "text";
+                                                    } else 
+                                                    {
+                                                        x.type = "password";
+                                                    }
+                                                }
+                                        </script>
+                                        <div>    
+                                            <a class="link1" style="font-size: 17px;  text-decoration: none;" href="../src/resetPassworrd.html">Forgot Password ?</a>
+                                            <br><br>
+                                            
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <button class="btn" style="margin-left: 15cm;" type="submit">Login</button>
+                                    </div>   
+                                </form>    
+                            </div>
+                            <script type="text/javascript" src="../src/js/loging.js"></script>
+                        </div>
+                        <a href="../src/register.html"><button type="Register" class="nbtn" style="margin-left: 35cm;">Register</button></a>
+                    </div>
+                    <hr class="nline1" style="margin-top: 2.65cm;">
+                </div>
+                <div id="nav-margin">
+                    <div class="nav">
+                        <a href="#" class="nav-item" active-color=" rgb(1, 1, 59)">Home</a>
+                        <a href="#" class="nav-item" active-color=" rgb(1, 1, 59)">Contact Us</a>
+                        <a href="../src/service.html" class="nav-item is-active" active-color=" rgb(1, 1, 59)">Service</a>
+                        <span style="margin-left: 22.3cm; margin-top: 0.3cm;"><a href="../src/AboutUs.html" class="nav-item" active-color=" rgb(1, 1, 59)">About us</a></span>
+                        <span class="nav-indicator"></span>
+                    </div>
+                    <script type="text/javascript" src="../src/js/login.js"></script>
+                </div>
+                <script type="text/javascript" src="../src/js/navigation.js"></script>
+            </nav>
+        </section>
+        <section id="sec1">
+            <p id="para1">Optimize your vote with votingHub<br><span style="color: black; font-size: 22px; font-style: italic;">Our platform is equally suited to voting in person or remotely online.</span></p>
+        <div>
+           <img class="serviceimg" style="margin-left: 3.5cm;" src="../src/images/service1.jpg">
+           <p class="text3" style="margin-left: 15cm; margin-top: -5.5cm;">Hold safe and fair elections<br><span class="text4">Our system works on blockchain
+            technology, the main advantage of which is immutability.<br> This means no one can influence the voting process or manipulate the results. In addition,
+            all votes<br> are completely anonymous — it's impossible to find out who voted for which option.</span></p> 
+        </div>
+        <br>
+        <div>
+            <img class="serviceimg" style="margin-left: 22.5cm; margin-top: 2cm;" src="../src/images/service2.jpg">
+            <p class="text3" style="margin-left: 3.5cm; margin-top: -5.5cm;">Hold more elections in less time<br><span class="text4">With VotingHub you don't need to print or hand out ballots,
+            manually register<br> participants or count results; VotingHub does it all for you, meaning organizing a<br> vote is much quicker. You can vote on issues, that previously
+            would have<br> taken up too much time or resources.</span></p> 
+         </div>
+         <br>
+         <div>
+            <img class="serviceimg" style="margin-left: 3.5cm; margin-top: 2cm;" src="../src/images/service3.jpg">
+            <p class="text3" style="margin-left: 15cm; margin-top: -5.5cm;">Allow all party members to decide<br><span class="text4">With the VotingHub platform, people can vote from anywhere
+            at any time. All data remains<br> confidential and voting is anonymous. This approach increases voter confidence and, <br>as a result, turnout.</span></p> 
+         </div>
+         <br>
+         <div>
+            <img class="serviceimg" style="margin-left: 22.5cm; margin-top: 4cm;" src="../src/images/service4.jpg">
+            <p class="text3" style="margin-left: 3.5cm; margin-top: -5.5cm;">Keep your election safe<br><span class="text4">Our system is based on blockchain technology, whose main advantage is that it's<br> immutable.
+            Nobody can influence the voting process or manipulate the results.<br> Moreover, we encrypt the votes so they cannot be linked to the identity of a voter.</span></p> 
+         </div>
+        </section>
+        <section id="sec2">
+            <p class="text1">How to vote...</p>
+            <img class="number" src="../src/images/one.png">
+            <div>
+                <img class="images" style="margin-left: 5cm; margin-top: -0.5cm;" src="../src/images/img2.jpg">
+                <p class="text2" style="margin-left: 8.5cm; margin-top: -1.6cm;">Fill the Registration Form</p>
+            </div>
+            <div>
+                <img class="number" src="../src/images/two.png">
+                <img class="images" style="margin-left: 22cm; margin-top: -0.5cm;"  src="../src/images/img1.jpg">
+                <p class="text2" style="margin-left: 25cm; margin-top: -1.6cm;">Log in to the system</p>
+            </div>
+            <img class="number" src="../src/images/three.png">
+            <div>
+                <img class="images" style="margin-left: 5cm; margin-top: -0.5cm;" src="../src/images/img5.jpg">
+                <p class="text2" style="margin-left: 8.5cm; margin-top: -1.6cm;">Go to the Vote page</p>
+            </div>
+            <div>
+                <img class="number"  src="../src/images/four.png">
+                <img class="images" style="margin-left: 22cm; margin-top: -0.5cm;" src="../src/images/img3.png">
+                <p class="text2" style="margin-left: 25cm; margin-top: -1.6cm;">Find poll You need</p>
+            </div>
+            <img class="number" src="../src/images/five.png">
+            <div>
+                <img class="images" style="margin-left: 5cm; margin-top: -0.5cm;" src="../src/images/img4.png">
+                <p class="text2" style="margin-left: 9cm; margin-top: -1.6cm;">vote for your flavor</p>
+            </div>
+            <div id="vl"></div>
+        </section>
+        <footer id="footer" style="margin-top: 58cm;">
+            <br>
+            <div>
+                <ul id="list1">
+                    <li class="list1"><a href="#">Privacy Policy </a></li>
+                    <li class="list1"><a href="../src/AboutUs.html">About Us </a></li>
+                    <li class="list1"><a href="#">Contact Us </a></li>
+                    <li class="list1"><a href="../src/service.html">Service</a></li>
+                </ul> 
+                <p id="paragraph">Follow Us On</p>
+                <div class="footer-social-media-icons">
+                    <ul>
+                        <li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" target="blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" target="blank"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" target="blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div id="paragraph2">
+                    <p>E-mail Us :</p>
+                    <p id="address" style="font-style: italic;">&nbsp;&nbsp;&nbsp;votinghub@email.com</p>
+                    <p>Contact Us:</p>
+                    <p>&nbsp;&nbsp;&nbsp;077-6739825</p>
+                </div>
+                <div id="footer_div1">
+                    <p id="footer_topic">VotingHub</p>
+                </div>
+                <div id="copy">
+                    <p id="copyright">ALL COPYRIGHTS RESERVED BY THE VOTINGHUB - &copy;2020 VOTINGHUB</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+.text1{
+    font-size: 40px;
+    color: rgb(9, 104, 104);
+    margin-left: 3cm;
+}
+#sec1{
+    position: absolute;
+    margin-top: 4.5cm;
+}
+#para1{
+    color: rgb(5, 5, 163);
+    font-size: 38px;
+    text-align: center;
+    margin-left: 1cm;
+
+}
+.serviceimg{
+    width: 10cm;
+    height: 6cm;
+}
+#sec2{
+    position: absolute;
+    margin-top: 38.5cm;
+}
+.images{
+    width: 2.5cm;
+    height: 2.5cm;
+    border-radius: 50%;
+}
+.text2{
+    color: rgb(42, 167, 245);
+    font-size: 23px;
+}
+#vl{
+    border-left: 2px solid green;
+    height: 14cm;
+    margin-left: 19cm;
+    z-index: -1;
+    margin-top: -15cm;
+    position: absolute;
+}
+.number{
+    width: 1cm;
+    height: 1cm;
+    border-radius: 50%;
+    margin-left: 18.5cm;
+}
+.text3{
+    color: rgb(5, 5, 163);
+    font-size: 28px;
+}
+.text4{
+    color: black;
+    font-size: 20px;
+}

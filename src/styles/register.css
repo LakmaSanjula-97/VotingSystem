@@ -1,0 +1,92 @@
+body {
+    background-image: url("../images/vote1234567.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#form1 {
+    margin-left: 11cm;
+    font-size:18px ;
+    margin-top: 4.6cm;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 4px;
+   }
+.margin1 {
+    margin-left: 0.3cm;
+    margin-right: 0.3cm;
+}
+.margin2 {
+    margin-left: 1.5cm;
+}
+input[type=email], select{
+    width: 75%;
+    padding: 12px 16px;
+    margin: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text], select{
+    width: 75%;
+    padding: 12px 16px;
+    margin: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select{
+    width: 75%;
+    padding: 12px 16px;
+    margin: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]:focus{
+    border: 1px solid rgb(40, 212, 212);
+}
+input[type=password]:focus{
+    border: 1px solid rgb(40, 212, 212);
+}
+input[type=email]:focus{
+    border: 1px solid rgb(40, 212, 212);
+}
+#submitBtn {
+    background-color: rgb(17, 93, 233);
+    color: white;
+    border: none;
+    width: 3cm;
+    height: 0.8cm;
+    margin-bottom: 0.5cm;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#submitBtn:hover
+{
+    opacity: 1;
+}
+#reCAPTCHA{
+    width: 1cm;
+    height: 1cm;
+    margin-top: 1cm;
+}
+#div1{
+    margin-top: 4.5cm;
+    margin-left: 1cm;
+    position: absolute;
+}
+#para1{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#div2{
+    margin-left: 9cm; 
+    font-size: 18px; 
+    margin-top: 24.3cm;
+    position: absolute;
+}
+

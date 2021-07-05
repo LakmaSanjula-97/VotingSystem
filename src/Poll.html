@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="../src/styles/navigation.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/login.css">
+        <link rel="stylesheet" type="text/css" href="../src/styles/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body style="overflow-x: hidden;">
+        <section>
+            <nav>
+                <div>
+                    <hr class="nline1" style="margin-top: 0cm;">
+                    <div>
+                        <img class="nlogo" src="../src/images/logo.png">
+                    </div>
+                    <div>
+                        <span class="ntopic">Voting Hub |</span>
+                        <i class="nsubtopic">online-voting system.......</i>
+                        <i id="nslogan">JOIN WITH US -<br>&nbsp; &nbsp; VOTE YOU LIKE..</i>
+                    </div>
+                    <!--login page-->
+                    <div>
+                        <div>
+                            <button type="Login" class="nbtn" style="margin-left: 31cm;" onclick="document.getElementById('login').style.display='block'" style="width: auto;">Login</button>
+                            <div id="login" class="loginbackground">
+                                <form class="loginbackground-content animate" action="#" method="#">
+                                    <div class="imgposition">
+                                        <span onclick="document.getElementById('login').style.display='none'" class="close">&times;</span>
+                                        <img class="avatar" src="../src/images/Avatar.png">
+                                    </div>
+                                    <div class="loginDetails">
+                                        <label for="uname"><b>Username :</b></label>
+                                        <input type="text" placeholder="Enter Username" name="uname" required autofocus>
+                                        <label for="psw1"><b>Password :</b></label>
+                                        <input type="password" name="password" id="pwd" placeholder="Enter Password"><br>
+                                        <input type="checkbox" onclick="myFunction()"><span style="font-size: 15px;">Show Password</span>  
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="checkbox" checked="checked" name="remember"><span style="font-size: 15px;"> Remember Me </span><br><br>
+                                        <script>
+                                            function myFunction()
+                                                {
+                                                    var x = document.getElementById("pwd");
+                                                    if (x.type === "password") 
+                                                    {
+                                                        x.type = "text";
+                                                    } else 
+                                                    {
+                                                        x.type = "password";
+                                                    }
+                                                }
+                                        </script>
+                                        <div>    
+                                            <a class="link1" style="font-size: 17px;  text-decoration: none;" href="">Forgot Password ?</a>
+                                            <br><br>
+                                            
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <button class="btn" style="margin-left: 15cm;" type="submit">Login</button>
+                                    </div>   
+                                </form>    
+                            </div>
+                            <script type="text/javascript" src="../src/js/loging.js"></script>
+                        </div>
+                        <button type="Register" class="nbtn" style="margin-left: 35cm;">Register</button>
+                    </div>
+                    <hr class="nline1" style="margin-top: 2.65cm;">
+                </div>
+                <div id="nav-margin">
+                    <div class="nav">
+                        <a href="#" class="nav-item is-active" active-color=" rgb(1, 1, 59)">Home</a>
+                        <a href="#" class="nav-item" active-color=" rgb(1, 1, 59)">Update Profile</a>
+                        <a href="#" class="nav-item" active-color=" rgb(1, 1, 59)">Create Poll</a>
+                        <a href="#" class="nav-item" active-color=" rgb(1, 1, 59)">Vote</a>
+                        <a href="#" class="nav-item" active-color=" rgb(1, 1, 59)">View Results</a>
+                        <span class="nav-indicator"></span>
+                        <!--Search bar-->
+                        <form class="searchbar" style="margin-left: 11.5cm;">
+                            <input id="search" type="text" placeholder="Search..." name="search" style="max-width: 275px;">
+                            
+                            <div style="margin-left: -1.2cm;">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+        
+                    </div>
+                    <script type="text/javascript" src="../src/js/login.js"></script>
+                </div>
+                <script type="text/javascript" src="../src/js/navigation.js"></script>
+            </nav>
+        </section>
+      
+    </body>
+</html>
